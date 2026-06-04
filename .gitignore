@@ -1,0 +1,20 @@
+# Ignore ALL IntelliJ files everywhere
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+**/workspace.xml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore everything first
+*
+
+# Re-allow ONLY docker compose files
+!*/
+!*.yml
+!*.yaml
+!.gitignore
